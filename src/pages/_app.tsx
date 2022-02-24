@@ -4,7 +4,6 @@ import type { AppProps } from 'next/app';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import GlobalStyles from 'components/GlobalStyles';
 import RepositoriesProvider from 'context/RepositoriesContext';
-import 'aos/dist/aos.css';
 
 const queryClient = new QueryClient({
   defaultOptions: {

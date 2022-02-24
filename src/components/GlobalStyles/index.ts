@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components/macro';
-import { COLORS } from 'styles/constants';
 
 const GlobalStyles = createGlobalStyle`
 
@@ -60,23 +59,6 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
-
-
-
-html {
-  --color-white: hsl(${COLORS.white});
-  --color-red: hsl(${COLORS.red});
-  --color-green: hsl(${COLORS.green});
-  --color-primary: hsl(${COLORS.primary});
-  --color-secondary: hsl(${COLORS.secondary});
-  --color-gray-100: hsl(${COLORS.gray[100]});
-  --color-gray-300: hsl(${COLORS.gray[300]});
-  --color-gray-500: hsl(${COLORS.gray[500]});
-  --color-gray-700: hsl(${COLORS.gray[700]});
-  --color-gray-900: hsl(${COLORS.gray[900]});
-  --color-blue-100: hsl(${COLORS.blue[100]});
-  --color-backdrop: hsl(${COLORS.gray[700]} / 0.8);
-}
 `;
 
 export default GlobalStyles;
